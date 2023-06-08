@@ -6,6 +6,7 @@ export default function Test() {
   return (
     <div>
         Test Page
+        <Link style={{color: "red",}} href="/List"><div>go ListPage</div></Link>
     </div>
   )
 }

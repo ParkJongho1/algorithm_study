@@ -5,8 +5,9 @@ import Link from 'next/link'
 export default function Home() {
 
   return (
-    <div>
-      Page Test
+    <div style={{display: 'flex', justifyContent: 'center'}}>
+      <Link style={{color: "red",}} href="/List"><div>go ListPage</div></Link>
+      <Link style={{color: "blue",}} href="/List"><div>go TestPage</div></Link>
     </div>
   )
 }
