@@ -8,7 +8,6 @@ function solution(n) {
       if (n % i === 0) {
          answer += i;
       }
-      // 삼항연산자: if( n % i === 0) { answer += i}
    }
    return answer;
 }
