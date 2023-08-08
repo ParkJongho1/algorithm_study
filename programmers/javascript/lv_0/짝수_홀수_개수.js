@@ -4,8 +4,8 @@
 
 function solution(num_list) {
    var answer = [];
-   let a = 0;
-   let b = 0;
+   let a = 0; // 짝수
+   let b = 0; // 홀수
    for (let i = 0; i < num_list.length; i++) {
       num_list[i] % 2 === 0 ? a++ : b++;
       answer = [a, b];
