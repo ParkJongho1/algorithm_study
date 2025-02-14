@@ -1,1 +1,1 @@
-console.log("one a day!!");
+console.log("Study algorithms once a day!!");
