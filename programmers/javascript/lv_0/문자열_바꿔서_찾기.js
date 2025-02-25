@@ -15,6 +15,10 @@ function solution(myString, pat) {
 }
 
 //다른사람풀이
-function solution(num_str) {
-  return [...num_str].map(Number).reduce((a, b) => a + b, 0);
-}
+const solution = (myString, pat) =>
+  [...myString]
+    .map((v) => (v === "A" ? "B" : "A"))
+    .join("")
+    .includes(pat)
+    ? 1
+    : 0;
